@@ -169,10 +169,14 @@ function App() {
             <div className="bg-white p-8 rounded-lg shadow-md">
               <div className="flex justify-between items-start mb-4">
                 <div>
-                  <h3 className="text-xl font-bold text-indigo-600">Higher Secondary</h3>
+                  <h3 className="text-xl font-bold text-indigo-600">Higher Secondary
+                    <span className="ml-3 px-3 py-1 bg-indigo-100 text-indigo-400 rounded-full text-sm self-center">
+                      2019 - 2021
+                    </span>
+                  </h3>
+                  
                   <p className="text-lg font-medium">SBK Boys Higher Secondary School</p>
                 </div>
-                <span className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">2019 - 2021</span>
               </div>
               <p className="text-gray-600 mb-2">HSC - 85%</p>
               <p className="text-gray-600">SSLC - 79%</p>
