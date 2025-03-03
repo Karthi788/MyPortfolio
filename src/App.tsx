@@ -284,9 +284,7 @@ function App() {
                   <span className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">JavaScript</span>
                   <span className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">API Integration</span>
                 </div>
-                <a href="#" className="text-indigo-600 font-medium flex items-center hover:text-indigo-800">
-                  View Project <ExternalLink size={16} className="ml-1" />
-                </a>
+
               </div>
             </div>
             
@@ -309,9 +307,7 @@ function App() {
                   <span className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">WebRTC</span>
                   <span className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">Socket.io</span>
                 </div>
-                <a href="#" className="text-indigo-600 font-medium flex items-center hover:text-indigo-800">
-                  View Project <ExternalLink size={16} className="ml-1" />
-                </a>
+
               </div>
             </div>
             
@@ -334,9 +330,7 @@ function App() {
                   <span className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">Node.js</span>
                   <span className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">MongoDB</span>
                 </div>
-                <a href="#" className="text-indigo-600 font-medium flex items-center hover:text-indigo-800">
-                  View Project <ExternalLink size={16} className="ml-1" />
-                </a>
+
               </div>
             </div>
           </div>
