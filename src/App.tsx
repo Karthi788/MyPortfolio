@@ -4,6 +4,7 @@ import emailjs from 'emailjs-com';
 import toast, { Toaster } from 'react-hot-toast';
 import photo from '../Images/karthiphoto.png';
 import summarize from '../Images/summarizer.webp';
+import cvFile from "../Images/Karthi-S-resume.pdf";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -98,12 +99,14 @@ function App() {
               Passionate about creating and supporting innovative solutions in dynamic environments.
             </p>
             <div className="flex space-x-4">
-              <a 
-                href="#contact" 
+              <a
+                href={cvFile} // Use the imported file
+                download="Karthi_CV.pdf" // Ensures the file downloads
                 className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors flex items-center"
               >
-                Contact Me <ChevronRight size={20} className="ml-2" />
+                Download CV <ChevronRight size={20} className="ml-2" />
               </a>
+
               <a 
                 href="#projects" 
                 className="px-6 py-3 border border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-50 transition-colors"
