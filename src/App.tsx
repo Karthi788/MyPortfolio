@@ -298,24 +298,23 @@ function App() {
             
             <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform hover:transform hover:scale-105">
               <div className="h-48 overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2094&q=80" 
-                  alt="Enhanced Collaborative Tool" 
+                <img
+                  src="https://images.unsplash.com/photo-1622598473264-81a98f1c7be5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="CycLynk EV Cycle App"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Enhanced Collaborative Tool</h3>
+                <h3 className="text-xl font-bold mb-2 text-green-600">CycLynk EV Cycle App</h3>
                 <p className="text-gray-600 mb-4">
-                  A collaborative tool combining features of diagramming, real-time video meetings, and chat, 
-                  enabling seamless team collaboration.
+                  A smart EV cycle application that connects to the ESP8266 module via Bluetooth,
+                  displaying real-time telemetry data, battery stats, and performance insights.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">React</span>
-                  <span className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">WebRTC</span>
-                  <span className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">Socket.io</span>
+                  <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Java</span>
+                  <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Bluetooth</span>
+                  <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">ESP8266</span>
                 </div>
-
               </div>
             </div>
             
