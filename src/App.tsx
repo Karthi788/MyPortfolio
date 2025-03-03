@@ -213,26 +213,30 @@ function App() {
                   </div>
                 </div>
                 
-                <div className="flex flex-col md:flex-row items-center">
-                  <div className="md:w-1/2 md:pr-12 md:text-right order-2 md:order-1 mb-6 md:mb-0">
-                    <div className="bg-white p-6 rounded-lg shadow-md w-full">
-                      <h4 className="font-semibold mb-2">Key Responsibilities:</h4>
-                      <ul className="list-disc pl-5 text-gray-600">
-                        <li>Created interactive web elements</li>
-                        <li>Implemented dynamic color-changing button</li>
-                        <li>Developed time-based alert functionality</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="md:w-1/2 md:pl-12 order-1 md:order-2">
-                    <h3 className="text-xl font-bold text-indigo-600">Web Development Intern</h3>
-                    <p className="text-lg font-medium">Cognifyz Technologies</p>
-                    <p className="text-gray-600 mt-2">
-                      Created interactive web elements, including a dynamic color-changing button and a time-based 
-                      alert box, enhancing user engagement.
-                    </p>
-                  </div>
-                </div>
+<div className="flex flex-col md:flex-row items-center">
+  {/* Left Section - Key Responsibilities */}
+  <div className="md:w-1/2 md:pr-12 order-2 md:order-1 mb-6 md:mb-0">
+    <div className="bg-white p-6 rounded-lg shadow-md w-full">
+      <h4 className="font-semibold mb-2">Key Responsibilities:</h4>
+      <ul className="list-disc text-gray-600 space-y-2 ml-5 md:ml-0 md:pl-5">
+        <li>Created interactive web elements</li>
+        <li>Implemented dynamic color-changing button</li>
+        <li>Developed time-based alert functionality</li>
+      </ul>
+    </div>
+  </div>
+
+  {/* Right Section - Internship Details */}
+  <div className="md:w-1/2 md:pl-12 order-1 md:order-2 text-center md:text-left">
+    <h3 className="text-xl font-bold text-indigo-600">Web Development Intern</h3>
+    <p className="text-lg font-medium">Cognifyz Technologies</p>
+    <p className="text-gray-600 mt-2">
+      Created interactive web elements, including a dynamic color-changing button and a time-based 
+      alert box, enhancing user engagement.
+    </p>
+  </div>
+</div>
+
                 
                 <div className="flex flex-col md:flex-row items-center">
                   <div className="md:w-1/2 md:pr-12 md:text-right mb-6 md:mb-0">
